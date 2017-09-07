@@ -66,6 +66,7 @@
             <ul>
                 <li>
                     <a class="list-group-item margin-top"  href="https://www.baidu.com/">百度一下，你就知道</a>
+                    <a class="list-group-item margin-top"  href="https://suipian.worktile.com/tasks/following" >Worktile</a>
                     <a class="list-group-item margin-top"  href="http://v3.bootcss.com/" >bootcss</a>
                     <a class="list-group-item margin-top"  href="http://frozenui.github.io/" >frozenui</a>
                     <a class="list-group-item margin-top"  href="http://layer.layui.com/mobile/api.html" >layer</a>
@@ -77,9 +78,54 @@
                     <a class="list-group-item "  href="https://cnodejs.org/topic/56ef3edd532839c33a99d00e" >
                         前端资源教程
                     </a>
+                    <a class="list-group-item "  href="https://www.javascripting.com/" >
+                        JavaScript库，框架和插件的最终来源。
+                    </a>
                 </li>
             </ul>
         </li>
+
+        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" >
+            <a class="list-group-item active ">Vue</a>
+            <ul>
+                <li>
+                    <a class="list-group-item "  href="https://vux.li/?x-page=oschina#/?id=%E7%AE%80%E4%BB%8B" >Vux</a>
+                    <a class="list-group-item "  href="http://www.kancloud.cn/yunye/axios/234845" > Axios 请求</a>
+                    <a class="list-group-item "  href="https://github.com/adcentury/vue-weui" > vue-weui</a>
+                    <a class="list-group-item "  href="https://github.com/Alex-fun/vue-list" >vue-list 无限加载</a>
+                    <a class="list-group-item "  href="https://github.com/LeoHuiyi/leo-vue-validator" >vuerify 表单验证</a>
+                    <a class="list-group-item "  href="https://github.com/LeoHuiyi/leo-vue-validator" >leo-vue-validator表单验证</a>
+                    <a class="list-group-item "  href="http://www.cnblogs.com/fly_dragon/p/6220273.html" > Vue入门系列之Vue实例详解与生命周期</a>
+                    <a class="list-group-item "  href="http://element.eleme.io/#/zh-CN/component/time-picker" >
+                        vue element
+                    </a>
+                     <a class="list-group-item "  href="https://juejin.im/entry/58d37e5961ff4b00604ad81d" >
+                        vue-login vue 全栈开发
+                    </a>
+                     <a class="list-group-item "  href="https://github.com/pablohpsilva/vuejs-component-style-guide/blob/master/README-CN.md#%E7%9B%AE%E5%BD%95" >
+                        Vue.js 组件编码规范
+                    </a>
+                    <a class="list-group-item "  href="https://github.com/pablohpsilva/vuejs-component-style-guide/blob/master/README-CN.md#%E7%9B%AE%E5%BD%95" >
+                        Vue.js 组件编码规范
+                    </a>
+                    <a class="list-group-item "  href="http://www.cnblogs.com/zhanyishu/p/6587571.html" >
+                        vue2组件懒加载浅析
+                    </a>
+                    <a class="list-group-item "  href="http://www.cnblogs.com/coolslider/p/7074609.html" >
+                        vue 组件按需引用，vue-router懒加载，vue打包优化，加载动画
+                    </a>
+                    <a class="list-group-item "  href="https://juejin.im/post/584e48b2ac502e006c74a120" >
+                         vue-cli#2.0 webpack 配置分析
+                    </a>
+                     <a class="list-group-item "  href="http://www.chungold.com/" >
+                         胖哥教育平台
+                    </a>
+
+                </li>
+                <li></li>
+            </ul>
+        </li>
+
         <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" >
             <a class="list-group-item active ">React</a>
             <ul>
@@ -113,24 +159,7 @@
                 <li></li>
             </ul>
         </li>
-        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" >
-            <a class="list-group-item active ">Vue</a>
-            <ul>
-                <li>
-                    <a class="list-group-item "  href="https://vux.li/?x-page=oschina#/?id=%E7%AE%80%E4%BB%8B" >Vux</a>
-                    <a class="list-group-item "  href="http://www.kancloud.cn/yunye/axios/234845" > Axios 请求</a>
-                    <a class="list-group-item "  href="https://github.com/adcentury/vue-weui" > vue-weui</a>
-                    <a class="list-group-item "  href="https://github.com/Alex-fun/vue-list" >vue-list 无限加载</a>
-                    <a class="list-group-item "  href="https://github.com/LeoHuiyi/leo-vue-validator" >vuerify 表单验证</a>
-                    <a class="list-group-item "  href="https://github.com/LeoHuiyi/leo-vue-validator" >leo-vue-validator表单验证</a>
-                    <a class="list-group-item "  href="http://www.cnblogs.com/fly_dragon/p/6220273.html" > Vue入门系列之Vue实例详解与生命周期</a>
-                    <a class="list-group-item "  href="http://element.eleme.io/#/zh-CN/component/time-picker" >
-                        vue element
-                    </a>
-                </li>
-                <li></li>
-            </ul>
-        </li>
+
         <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" >
             <a class="list-group-item active ">ReactNative</a>
             <ul>
@@ -179,22 +208,86 @@
             <ul>
                 <li>
                     <a class="list-group-item "  href="http://blog.163.com/sdhhqb@126/blog/static/6370553720166132914869/" >
-                    更新package.json中的dependencies依赖到最新版本
+                        更新package.json中的dependencies依赖到最新版本
                     </a>
-                      <a class="list-group-item "  href="http://blog.csdn.net/la413972057/article/details/50450335" >
-                     npm的package.json中的dependencies版本号
+                    <a class="list-group-item "  href="http://blog.csdn.net/la413972057/article/details/50450335" >
+                        npm的package.json中的dependencies版本号
                     </a>
                 </li>
                 <li></li>
             </ul>
         </li>
 
-         <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" >
+        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" >
             <a class="list-group-item active ">Node</a>
             <ul>
                 <li>
                     <a class="list-group-item "  href="https://cnodejs.org/getstart" >
-                    Node.js 入门
+                        Node.js 入门
+                    </a>
+                </li>
+                <li></li>
+            </ul>
+        </li>
+
+        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" >
+            <a class="list-group-item active ">WordPress</a>
+            <ul>
+                <li>
+                    <a class="list-group-item "  href="https://www.wpdaxue.com/wordpress-theme-basis-files-and-functions.html" >
+                       WordPress主题的基本模板及常用函数
+                    </a>
+                </li>
+                <li>
+                    <a class="list-group-item "  href="https://developer.wordpress.org/reference/" >
+                       WordPress开发人员资源
+                    </a>
+                </li>
+                <li></li>
+            </ul>
+        </li>
+
+        <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" >
+            <a class="list-group-item active ">前端开发资料</a>
+            <ul>
+                <li>
+                    <a class="list-group-item "  href="https://github.com/wasdokij/Front-end-tutorial" >
+                      猫的前端回忆录（前端资料整合）
+                    </a>
+                </li>
+                <li>
+                    <a class="list-group-item "  href="https://www.ctolib.com/nodejs/" >
+                       Node.js开发社区 | 码库CTOLib
+                    </a>
+                </li>
+                 <li>
+                    <a class="list-group-item "  href="http://www.html-js.com/" >
+                       前端乱炖
+                    </a>
+                </li>
+                 <li>
+                    <a class="list-group-item "  href="https://www.awesomes.cn/repos/Applications/frameworks" >
+                       前端库类
+                    </a>
+                </li>
+                 <li>
+                    <a class="list-group-item "  href="https://uptodate.frontendrescue.org/zh/" >
+                       如何跟上前端开发的最新前沿
+                    </a>
+                </li>
+                <li>
+                    <a class="list-group-item "  href="https://mdluo.github.io/blog/about-front-end-interview/" >
+                       前端资源（名人推荐）
+                    </a>
+                </li>
+                <li>
+                    <a class="list-group-item "  href="http://www.fefork.com/fetool/" >
+                       大前端工具集（前端资料整合）
+                    </a>
+                </li>
+                 <li>
+                    <a class="list-group-item "  href="http://collect.w3ctrain.com/" >
+                       前端收藏夹
                     </a>
                 </li>
                 <li></li>
