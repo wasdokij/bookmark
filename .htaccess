@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www.)?bookmark.langok.com$
+RewriteCond %{REQUEST_URI} !^/bookmark/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ /bookmark/$1
+RewriteCond %{HTTP_HOST} ^(www.)?bookmark.langok.com$
+RewriteRule ^(/)?$ bookmark/index.html [L]
